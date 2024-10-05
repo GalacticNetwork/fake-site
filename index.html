@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzSearch - Math Lessons Made Easy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to EzSearch</h1>
+        <nav>
+            <ul>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Master Math with EzSearch</h2>
+        <p>Get easy-to-understand lessons in algebra, calculus, geometry, and more!</p>
+    </section>
+
+    <section id="lessons">
+        <h2>Math Lessons</h2>
+        <div class="lesson-card">
+            <h3>Algebra</h3>
+            <p>Learn the basics of algebra including variables, equations, and more.</p>
+            <button onclick="showLesson('algebra')">Start Algebra Lesson</button>
+        </div>
+
+        <div class="lesson-card">
+            <h3>Calculus</h3>
+            <p>Get into the world of limits, derivatives, and integrals.</p>
+            <button onclick="showLesson('calculus')">Start Calculus Lesson</button>
+        </div>
+
+        <div class="lesson-card">
+            <h3>Geometry</h3>
+            <p>Dive into the shapes, sizes, and properties of figures and spaces.</p>
+            <button onclick="showLesson('geometry')">Start Geometry Lesson</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About EzSearch</h2>
+        <p>EzSearch is dedicated to simplifying complex mathematical concepts. Our goal is to help students from all levels master math through clear, concise lessons.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EzSearch. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
